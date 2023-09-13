@@ -21,6 +21,7 @@
     $css->setCss("./assets/css/flickity.css");
     $css->setCss("./assets/css/HoldOn.css");
     $css->setCss("./assets/css/style.css");
+    $css->setCss("./assets/css/slick-slider.css");
     echo $css->getCss();
 ?>
 

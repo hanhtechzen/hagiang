@@ -325,7 +325,51 @@
 	</div>
 </section>
 
+<section class="wrap-taisao py-[50px] bg-white pb-[35px] bg-no-repeat">
+	<div class="container h-[250px]">
+		<div class="title-chill-tour mb-[37px]">
+			<p class="uppercase text-[40px] capitalize font-Viaoda">Photo</p>
+		</div>
+		<div class="slider relative">
+			<div class="card bg-gray-100 hover:bg-pink-600 hover:text-white transition hover:-translate-y-1 transform rounded-md mx-2 h-[300px]">
+			    <img src="https://jasminehagiang.com/images/albums/compress/layer-151_1678682754.png" alt="cover">
+			</div>
+			<div class="card bg-gray-100 hover:bg-pink-600 hover:text-white transition hover:-translate-y-1 transform rounded-md mx-2">
+				<img src="https://jasminehagiang.com/images/albums/compress/doc-tham-ma-2_1678682709.png.webp" alt="cover">
+			</div>
+			<div class="card bg-gray-100 hover:bg-pink-600 hover:text-white transition hover:-translate-y-1 transform rounded-md mx-2">
+				<img src="https://jasminehagiang.com/images/albums/compress/layer-7631_1678682722.jpg.webp" alt="cover">
+			</div>
+			<div class="card bg-gray-100 hover:bg-pink-600 hover:text-white transition hover:-translate-y-1 transform rounded-md mx-2">
+				<img src="https://jasminehagiang.com/images/albums/compress/layer-20_1678645520.png.webp" alt="cover">
+			</div>
+		</div>
+	</div>
+</session>
 
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$('.slider').slick({
+			'slidesToShow': 3,
+			arrows: true,
+			prevArrow: '<button type="button" class="slick-prev"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>left-arrow</title><g stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" stroke="#565656"><polyline points="23,30 9,16 23,2 " transform="translate(0, 0)"></polyline></g></svg></button>',
+			nextArrow: '<button type="button" class="slick-next"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>right-arrow</title><g stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" stroke="#565656"><polyline points="9,2 23,16 9,30 " transform="translate(0, 0)"></polyline></g></svg></button>',
+			dots: true,
+			responsive: [
+				{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					infinite: true
+				}
+			}] 
+		});
+	});
+</script>
+<!-- <script type="text/javascript" src="./js/script.js"></script> -->
 <script type="text/javascript">
 	function OrderTour() {
 		return {
