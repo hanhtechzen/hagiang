@@ -281,6 +281,51 @@
 	</div>
 </section>
 
+<section class="wrap-taisao py-[50px] bg-white pb-[35px] bg-no-repeat">
+	<div class="container">
+		<div class="title-chill-tour mb-[37px]">
+			<p class="uppercase text-[40px] capitalize font-Viaoda">Video</p>
+		</div>
+		<div class="row -mx-[12px]">
+			<div class="col-6 col-lg-8">
+				<div class="simple_video_top_left" link-video="https://www.youtube.com/embed/ZqTQ2nfEtAc">
+					<iframe src="https://www.youtube.com/embed/ZqTQ2nfEtAc?rel=0&amp;autoplay=1" allow="autoplay" width="100%" height="400px" frameborder="0" allowfullscreen="false">
+
+					</iframe>
+				</div>
+			</div>
+			<div class="col-6 col-lg-4">
+				<p class="mt-[15px] text-[20px] font-bold text-black">One of the best locations to travel to in Vietnam - The Ha Giang Loop</p>
+				<p>With a total distance of 500 kilometers, the Ha Giang Loop is no short task. However, the stunning views and exhilarating journey will be the highlight of your Vietnam trip, and perhaps the best few days of your life!</p>
+			</div>
+		</div>
+		<div class="row -mx-[12px] mt-[20px]">
+			<div class="col-12 col-lg-4">
+				<div class="simple_video_top_left" link-video="https://www.youtube.com/embed/rDRGc1LRJYc">
+					<iframe src="https://www.youtube.com/embed/rDRGc1LRJYc?rel=0&amp;autoplay=1" allow="autoplay" width="100%" height="250px" frameborder="0" allowfullscreen="false">
+
+					</iframe>
+				</div>
+			</div>
+			<div class="col-12 col-lg-4">
+				<div class="simple_video_top_left" link-video="https://www.youtube.com/embed/JJP7rQr-nEw">
+					<iframe src="https://www.youtube.com/embed/JJP7rQr-nEw?rel=0&amp;autoplay=1" allow="autoplay" width="100%" height="250px" frameborder="0" allowfullscreen="false">
+
+					</iframe>
+				</div>
+			</div>
+			<div class="col-12 col-lg-4">
+				<div class="simple_video_top_left" link-video="https://www.youtube.com/embed/766q416pkP4">
+					<iframe src="https://www.youtube.com/embed/766q416pkP4?rel=0&amp;autoplay=1" allow="autoplay" width="100%" height="250px" frameborder="0" allowfullscreen="false">
+
+					</iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <script type="text/javascript">
 	function OrderTour() {
 		return {
