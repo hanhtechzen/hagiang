@@ -1,3 +1,9 @@
 .slick-list {
 	height: 250px !important;
 }
+
+.bg-accordion{
+	background: #f7f7f7 !important;
+	border-radius: 5px !important;
+	padding: 15px !important;
+}

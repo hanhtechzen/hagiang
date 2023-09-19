@@ -201,7 +201,7 @@
 	</div>
 </section>
 <?php }?>
-<?php if($banner_khachsan['hienthi']==1){?>
+<!-- <?php if($banner_khachsan['hienthi']==1){?>
 <div class="wrap-banner-khachsan relative">
 	<img src="<?=UPLOAD_PHOTO_L.$banner_khachsan['photo']?>" class="w-full" alt="<?=$setting['ten'.$lang]?>">
 	<div class="wrap-banner-info absolute w-100 h-100 left-0 top-0 flex items-center justify-start">
@@ -217,7 +217,7 @@
 		</div>
 	</div>
 </div>
-<?php }?>
+<?php }?> -->
 
 <section class="wrap-tintuc py-[50px] bg-white pb-[60px]">
 	<div class="container">
@@ -242,7 +242,7 @@
 		</div>
 	</div>
 </section>
-
+<!-- 
 <?php if($banner_nhahang['hienthi']==1){?>
 <div class="wrap-banner-khachsan relative">
 	<img src="<?=UPLOAD_PHOTO_L.$banner_nhahang['photo']?>" class="w-full" alt="<?=$setting['ten'.$lang]?>">
@@ -259,7 +259,7 @@
 		</div>
 	</div>
 </div>
-<?php }?>
+<?php }?> -->
 
 <section class="wrap-taisao py-[50px] bg-white pb-[35px] bg-[url(../images/bg_taisao.svg)] bg-no-repeat">
 	<div class="container">
@@ -277,6 +277,96 @@
 				</div>
 			</div>
 			<?php }?>
+		</div>
+	</div>
+</section>
+
+<section class="wrap-taisao py-[50px] bg-white pb-[35px] bg-no-repeat">
+	<div class="container">
+		<div class="title-chill-tour mb-[37px] text-center">
+			<p class="uppercase text-[40px] capitalize font-Viaoda">Jasmine accompanies to bring the most experience & peace of mind</p>
+		</div>
+		<div class="row -mx-[12px] mt-[20px]">
+			<div class="col-12 col-lg-4">
+				<p class="text-[20px] font-bold text-black">What Is Included in this trip?</p>
+				<p class="mt-[20px]">The Ha Giang Loop is like something out of a movie; with steep passes, winding bends and hairpin turns, it may create a rush of adrenaline or even fear.</p>
+				<p class="mt-[15px]">But with our expert guides, we will help you overcome this fear and conquer the ‘North Pole’, earning the respect of your friends and family.</p>
+				<p class="mt-[15px]">Regardless of your previous experience with motorbikes, you will love this trip, and by the end you will have a newfound confidence and love for Vietnam. We can’t wait to help you on this journey!</p>
+			</div>
+			<div class="col-12 col-lg-4">
+				<img src="https://jasminehagiang.com/images/introduce/compress/layer-761_1680112546.png.webp" alt="cover">
+			</div>
+			<div class="col-12 col-lg-4">
+				<img src="https://jasminehagiang.com/images/introduce/compress/layer-763_1680112547.png.webp" height="300px" alt="cover">
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="wrap-taisao py-[50px] pb-[35px] bg-no-repeat">
+	<div class="container">
+		<div class="title-chill-tour mb-[37px] text-center">
+			<p class="uppercase text-[40px] capitalize font-Viaoda">Frequently asked questions</p>
+		</div>
+		<div class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-[20px] bg-accordion">
+			<div class="p-[5px]">
+				<details class="group">
+					<summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+						<p class="text-[20px] font-bold text-black">I am solo traveler, Can I join with the group?</p>
+						<span class="transition group-open:rotate-180">
+							<svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+						</span>
+					</summary>
+					<p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+						These are individual, couple, or group tours (based on your preference and needs). Even as a solo traveler, you’ll still receive the full tour experience.
+					</p>
+				</details>
+			</div>
+		</div>
+		<div class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-2 bg-accordion">
+			<div class="p-[5px]">
+				<details class="group">
+					<summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+						<p class="text-[20px] font-bold text-black">Can I bring my suitcase or big backpack?</p>
+						<span class="transition group-open:rotate-180">
+							<svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+						</span>
+					</summary>
+					<p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+						As we will be traveling on motorbikes, limited storage is available. Small Backpacks and easy-to-carry bags are recommended. Reconsider bringing large or difficult suitcases.
+					</p>
+				</details>
+			</div>
+		</div>
+		<div class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-2 bg-accordion">
+			<div class="p-[5px]">
+				<details class="group">
+					<summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+						<p class="text-[20px] font-bold text-black">Do you have scooter/automatic bike?</p>
+						<span class="transition group-open:rotate-180">
+							<svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+						</span>
+					</summary>
+					<p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+						The  Scooter or automatic bike is not suitable for mountain road with go up and down a lot of time. 
+					</p>
+				</details>
+			</div>
+		</div>
+		<div class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-2 bg-accordion">
+			<div class="p-[5px]">
+				<details class="group">
+					<summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+						<p class="text-[20px] font-bold text-black">Can I make the payment by card?</p>
+						<span class="transition group-open:rotate-180">
+							<svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+						</span>
+					</summary>
+					<p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+						Yes, we accept payment by cash and card when you pay in our office or you can make the payment through website.
+					</p>
+				</details>
+			</div>
 		</div>
 	</div>
 </section>
