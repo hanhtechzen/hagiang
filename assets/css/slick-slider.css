@@ -7,3 +7,10 @@
 	border-radius: 5px !important;
 	padding: 15px !important;
 }
+
+.bg-compo-book {
+    background-image: url('https://jasminehagiang.com/modules/home/assets/images/Layer-16.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

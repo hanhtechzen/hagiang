@@ -308,64 +308,70 @@
 		<div class="title-chill-tour mb-[37px] text-center">
 			<p class="uppercase text-[40px] capitalize font-Viaoda">Frequently asked questions</p>
 		</div>
-		<div class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-[20px] bg-accordion">
+		<?php
+		    $a = [
+				[
+					'title' => 'I am solo traveler, Can I join with the group?',
+					'des' => 'These are individual, couple, or group tours (based on your preference and needs). Even as a solo traveler, you’ll still receive the full tour experience.'
+				],
+				[
+					'title' => 'Can I bring my suitcase or big backpack?',
+					'des' => 'As we will be traveling on motorbikes, limited storage is available. Small Backpacks and easy-to-carry bags are recommended. Reconsider bringing large or difficult suitcases.'
+				],
+				[
+					'title' => 'Do you have scooter/automatic bike?',
+					'des' => 'The  Scooter or automatic bike is not suitable for mountain road with go up and down a lot of time.'
+				],
+				[
+					'title' => 'Can I make the payment by card?',
+					'des' => 'Yes, we accept payment by cash and card when you pay in our office or you can make the payment through website.'
+				]
+			];
+			array_map('cube', $a);
+			function cube($n)
+			{ ?>
+				<div class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-[20px] bg-accordion">
+					<div class="p-[5px]">
+						<details class="group">
+							<summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+								<p class="text-[20px] font-bold text-black"><?=$n['title']?></p>
+								<span class="transition group-open:rotate-180">
+									<svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+								</span>
+							</summary>
+							<p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+								<?=$n['des']?>
+							</p>
+						</details>
+					</div>
+		        </div>
+		<?php } ?>
+	</div>
+</section>
+
+<!-- <section class="wrap-taisao py-[50px] pb-[35px] bg-no-repeat">
+	<div class="container">
+		<div class="title-chill-tour mb-[37px] text-center">
+			<p class="uppercase text-[40px] capitalize font-Viaoda">Frequently asked questions</p>
+		</div>
+		<div>
 			<div class="p-[5px]">
-				<details class="group">
-					<summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-						<p class="text-[20px] font-bold text-black">I am solo traveler, Can I join with the group?</p>
-						<span class="transition group-open:rotate-180">
-							<svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
-						</span>
-					</summary>
-					<p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-						These are individual, couple, or group tours (based on your preference and needs). Even as a solo traveler, you’ll still receive the full tour experience.
-					</p>
-				</details>
+
 			</div>
 		</div>
-		<div class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-2 bg-accordion">
-			<div class="p-[5px]">
-				<details class="group">
-					<summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-						<p class="text-[20px] font-bold text-black">Can I bring my suitcase or big backpack?</p>
-						<span class="transition group-open:rotate-180">
-							<svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
-						</span>
-					</summary>
-					<p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-						As we will be traveling on motorbikes, limited storage is available. Small Backpacks and easy-to-carry bags are recommended. Reconsider bringing large or difficult suitcases.
-					</p>
-				</details>
-			</div>
+	</div>
+</section> -->
+
+<section class="bg-child bg-compo-book bg-cover bg-no-repeat bg-center py-[60px]">
+	<div class="container">
+		<div class="title-chill-tour text-center bg-[url(../images/bg-title.svg)] bg-no-repeat bg-top-center pt-[40px] mb-[30px]">
+			<p class="uppercase text-[40px] capitalize font-Viaoda">Simple and flexible pricing</p>
 		</div>
-		<div class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-2 bg-accordion">
-			<div class="p-[5px]">
-				<details class="group">
-					<summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-						<p class="text-[20px] font-bold text-black">Do you have scooter/automatic bike?</p>
-						<span class="transition group-open:rotate-180">
-							<svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
-						</span>
-					</summary>
-					<p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-						The  Scooter or automatic bike is not suitable for mountain road with go up and down a lot of time. 
-					</p>
-				</details>
-			</div>
-		</div>
-		<div class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-2 bg-accordion">
-			<div class="p-[5px]">
-				<details class="group">
-					<summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-						<p class="text-[20px] font-bold text-black">Can I make the payment by card?</p>
-						<span class="transition group-open:rotate-180">
-							<svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
-						</span>
-					</summary>
-					<p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-						Yes, we accept payment by cash and card when you pay in our office or you can make the payment through website.
-					</p>
-				</details>
+		<div>
+			<div class="bg-[#df6726] h-[50px]">
+				<button class="bg-[#FFF] hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full uppercase">
+					Book now
+				</button>
 			</div>
 		</div>
 	</div>

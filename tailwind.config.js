@@ -10,7 +10,10 @@ module.exports = {
     		'right-center': 'right center',
         'top-center': 'top center',
         'bottom-center': 'bottom center',
-    	}
+    	},
+      colors:{
+        orange: "##df6726"
+      }
     },
   },
   plugins: [
