@@ -22,6 +22,7 @@
     $css->setCss("./assets/css/HoldOn.css");
     $css->setCss("./assets/css/style.css");
     $css->setCss("./assets/css/slick-slider.css");
+    $css->setCss("./assets/css/landing-page.css");
     echo $css->getCss();
 ?>
 

@@ -1,0 +1,76 @@
+.bg-accordion {
+    background: #f7f7f7 !important;
+    border-radius: 5px !important;
+    padding: 15px !important;
+}
+
+.bg-compo-book {
+    background-image: url('https://jasminehagiang.com/modules/home/assets/images/Layer-16.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.type-tour {
+    background-color: #df6726;
+    border-radius: 10px 10px 30px 30px;
+    padding: 60px 20px 40px 20px !important;
+    width: calc(100% / 3 - 40px);
+    color: #f7f7f7;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 20px;
+}
+
+.book-now {
+    padding: '10px 40px';
+    background: white;
+    border-radius: 50px;
+}
+
+.radio-item .input-label {
+    width: 70%;
+}
+
+.type-tour .wrap-radio-item {
+    margin-bottom: 10px;
+}
+.type-tour .wrap-radio-item .crossbar {
+    height: 1px;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+.type-tour .radio-item .title {
+    font-size: 12px;
+    font-weight: 550;
+}
+
+.type-tour .radio-item .value {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.wrap-book-now {
+    display: flex;
+    justify-content: center;
+}
+
+.type-tour .radio-des {
+    margin-top: 20px;
+}
+
+.prie_item_title {
+    position: absolute;
+    top: -30px;
+    left: 20px;
+    right: 20px;
+    background-image: url('https://jasminehagiang.com/modules/home/assets/images/Rectangle-8021.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

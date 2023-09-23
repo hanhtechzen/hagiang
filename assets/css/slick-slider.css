@@ -1,16 +1,3 @@
 .slick-list {
-	height: 250px !important;
-}
-
-.bg-accordion{
-	background: #f7f7f7 !important;
-	border-radius: 5px !important;
-	padding: 15px !important;
-}
-
-.bg-compo-book {
-    background-image: url('https://jasminehagiang.com/modules/home/assets/images/Layer-16.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    height: 250px !important;
 }

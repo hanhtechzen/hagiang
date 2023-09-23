@@ -349,29 +349,119 @@
 	</div>
 </section>
 
-<!-- <section class="wrap-taisao py-[50px] pb-[35px] bg-no-repeat">
-	<div class="container">
-		<div class="title-chill-tour mb-[37px] text-center">
-			<p class="uppercase text-[40px] capitalize font-Viaoda">Frequently asked questions</p>
-		</div>
-		<div>
-			<div class="p-[5px]">
-
-			</div>
-		</div>
-	</div>
-</section> -->
-
-<section class="bg-child bg-compo-book bg-cover bg-no-repeat bg-center py-[60px]">
+<section class="bg-compo-book bg-cover bg-no-repeat bg-center py-[60px]">
 	<div class="container">
 		<div class="title-chill-tour text-center bg-[url(../images/bg-title.svg)] bg-no-repeat bg-top-center pt-[40px] mb-[30px]">
 			<p class="uppercase text-[40px] capitalize font-Viaoda">Simple and flexible pricing</p>
 		</div>
-		<div>
-			<div class="bg-[#df6726] h-[50px]">
-				<button class="bg-[#FFF] hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full uppercase">
-					Book now
-				</button>
+		<div class='wrap-type-tour'>
+				<div class="type-tour">
+					<div class="prie_item_title">
+						<h4>3 Days 2 Night</h4>
+					</div>
+					<div class="radio-des">
+						<?php
+						$compos = [
+							[
+								'title' => 'SELF-RIDING ( WITHOUT BUS TICKET )',
+								'price' => '3.408.000',
+								'value' => 3408000
+							],
+							[
+								'title' => 'EASY RIDER ( WITHOUT BUS TICKET )',
+								'price' => '4.680.000',
+								'value' => 4680000
+							],
+							[
+								'title' => 'COMBO WITH BUS TICKETS 2 WAYS SELF-RIDING ( CLICK FOR MORE OPTIONS)',
+								'price' => '3.960.000',
+								'value' => 3960000
+							],
+							[
+								'title' => 'COMBO WITH BUS TICKETS 2 WAYS EASY-RIDER ( CLICK FOR MORE OPTIONS)',
+								'price' => '5.232.000',
+								'value' => 5232000
+							]
+						];
+
+						$des = [
+							[
+								'title' => 'Follow the group with the local guide',
+								'price' => '3.408.000',
+							],
+							[
+								'title' => 'New generation semi-automatic motor-bike* (can be upgraded with a small fee)',
+								'price' => '4.680.000',
+							],
+							[
+								'title' => '2 breakfasts, 3 lunches, and 2 dinners',
+								'price' => '3.960.000',
+							],
+							[
+								'title' => '2 nights in a beautiful homestay with local people house',
+								'price' => '5.232.000',
+							],
+
+							[
+								'title' => 'Tickets for sightseeing, tickets for Nho Que riverboat',
+								'price' => '3.408.000',
+							],
+							[
+								'title' => 'Gasoline cars',
+								'price' => '4.680.000',
+							],
+							[
+								'title' => 'Motorcycle damage insurance',
+								'price' => '3.960.000',
+							],
+							[
+								'title' => 'Ha Giang Immigration Permit 10$ for foreigners',
+								'price' => '5.232.000',
+							],
+							[
+								'title' => '*When you book the tour package will get a free bed before 1 night the tour start.',
+								'price' => '4.680.000',
+							],
+							[
+								'title' => '** If you want a Private room, The price is 400.000vnd/2 people/night',
+								'price' => '3.960.000',
+							],
+							[
+								'title' => '*** If you want to ride the bike by yourself, Please bring the International Motorbike License with you',
+								'price' => '5.232.000',
+							]
+						];
+
+						array_map('renderRadio', $compos);
+						array_map('renderDes', $des);
+						function renderRadio($n)
+						{ ?>
+							<div class='wrap-radio-item'>
+								<div class="flex items-center radio-item">
+									<div class="flex items-center input-label">
+										<input id="default-radio-1" type="radio" value=<?=$n['value']?> name="default-radio" class="w-4 h-4 mr-2">
+										<label for="default-radio-1" class="title mr-auto"><?=$n['title']?></label>
+									</div>
+									<label for="default-radio-1" class="value ml-auto"><?=number_format($n['value'])?>đ</label>
+								</div>
+								<div class="crossbar"></div>
+							</div>
+					<?php } ?>
+
+					<?php
+					function renderDes($n)
+						{ ?>
+							<div class='wrap-des'>
+								<label for="default-radio-1" class="title mr-auto"><?=$n['title']?></label>
+							</div>
+					<?php } ?>
+
+				</div>
+				<div class="wrap-book-now">
+					<button class="book-now hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full uppercase">
+					   Book now
+				    </button>
+				</div>
 			</div>
 		</div>
 	</div>
