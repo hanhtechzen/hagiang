@@ -79,3 +79,67 @@
     display: flex;
     justify-content: center;
 }
+
+.wrap-pay .input-item {
+    margin-top: 10px;
+}
+/* 
+.wrap-pay .input-item input {
+    border-radius: 5px;
+} */
+
+.wrap-pay .input-item input,
+textarea,
+select {
+    border-radius: 5px;
+}
+
+.registration-list .title {
+    text-align: center;
+    font-weight: 550;
+    font-size: 17px;
+}
+
+.registration-list .table {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.registration-list .table .header {
+    border: 1px solid #dddddd;
+    width: 85%;
+}
+
+.registration-list .table .header div {
+    text-align: center;
+    border: 1px solid #dddddd;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registration-list .provisional {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.registration-list .provisional {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.registration-list .service-charge {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.registration-list .total {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 5px;
+    color: #ec1d2f;
+}

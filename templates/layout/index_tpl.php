@@ -354,203 +354,306 @@
         <div class="title-chill-tour text-center bg-[url(../images/bg-title.svg)] bg-no-repeat bg-top-center pt-[40px] mb-[30px]">
             <p class="uppercase text-[40px] capitalize font-Viaoda">Simple and flexible pricing</p>
         </div>
-<div class="wrap-type-tour">
-	<?php
-// Mảng chứa thông tin tour
-$tours = [
-    [
-        'title' => '3 Days 2 Nights',
-        'compos' => [
-            [
-				'title' => 'SELF-RIDING ( WITHOUT BUS TICKET )',
-				'price' => '3.408.000',
-				'value' => 3408000
+	<div class="wrap-type-tour">
+		<?php
+		// Mảng chứa thông tin tour
+		$tours = [
+			[
+				'title' => '3 Days 2 Nights',
+				'compos' => [
+					[
+						'title' => 'SELF-RIDING ( WITHOUT BUS TICKET )',
+						'price' => '3.408.000',
+						'value' => 3408000
+					],
+					[
+						'title' => 'EASY RIDER ( WITHOUT BUS TICKET )',
+						'price' => '4.680.000',
+						'value' => 4680000
+					],
+					[
+						'title' => 'COMBO WITH BUS TICKETS 2 WAYS SELF-RIDING ( CLICK FOR MORE OPTIONS)',
+						'price' => '3.960.000',
+						'value' => 3960000
+					],
+					[
+						'title' => 'COMBO WITH BUS TICKETS 2 WAYS EASY-RIDER ( CLICK FOR MORE OPTIONS)',
+						'price' => '5.232.000',
+						'value' => 5232000
+					]
+				],
+				'des' => [
+					[
+						'title' => 'Follow the group with the local guide',
+						'price' => '3.408.000',
+					],
+					[
+						'title' => 'New generation semi-automatic motor-bike* (can be upgraded with a small fee)',
+						'price' => '4.680.000',
+					],
+					[
+						'title' => '2 breakfasts, 3 lunches, and 2 dinners',
+						'price' => '3.960.000',
+					],
+					[
+						'title' => '2 nights in a beautiful homestay with local people house',
+						'price' => '5.232.000',
+					],
+					[
+						'title' => 'Tickets for sightseeing, tickets for Nho Que riverboat',
+						'price' => '3.408.000',
+					],
+					[
+						'title' => 'Gasoline cars',
+						'price' => '4.680.000',
+					],
+					[
+						'title' => 'Motorcycle damage insurance',
+						'price' => '3.960.000',
+					],
+					[
+						'title' => 'Ha Giang Immigration Permit 10$ for foreigners',
+						'price' => '5.232.000',
+					],
+					[
+						'title' => '*When you book the tour package will get a free bed before 1 night the tour start.',
+						'price' => '4.680.000',
+					],
+					[
+						'title' => '** If you want a Private room, The price is 400.000vnd/2 people/night',
+						'price' => '3.960.000',
+					],
+					[
+						'title' => '*** If you want to ride the bike by yourself, Please bring the International Motorbike License with you',
+						'price' => '5.232.000',
+					]
+				]
 			],
 			[
-				'title' => 'EASY RIDER ( WITHOUT BUS TICKET )',
-				'price' => '4.680.000',
-				'value' => 4680000
+				'title' => '4 DAYS 3 NIGHT',
+				'compos' => [
+					[
+						'title' => 'SELF-RIDING ( WITHOUT BUS TICKET )',
+						'price' => '3.408.000',
+						'value' => 4248000
+					],
+					[
+						'title' => 'EASY RIDER ( WITHOUT BUS TICKET )',
+						'price' => '4.680.000',
+						'value' => 6048000
+					],
+					[
+						'title' => 'COMBO WITH BUS TICKETS 2 WAYS SELF-RIDING ( CLICK FOR MORE OPTIONS)',
+						'price' => '3.960.000',
+						'value' => 4800000
+					],
+					[
+						'title' => 'COMBO WITH BUS TICKETS 2 WAYS EASY-RIDER ( CLICK FOR MORE OPTIONS)',
+						'price' => '5.232.000',
+						'value' => 6600000
+					]
+				],
+				'des' => [
+					[
+						'title' => 'Follow the group with the local guide',
+						'price' => '3.408.000',
+					],
+					[
+						'title' => 'New generation semi-automatic motor-bike* (can be upgraded with a small fee)',
+						'price' => '4.680.000',
+					],
+					[
+						'title' => '3 breakfasts, 4 lunches, and 3 dinners',
+						'price' => '3.960.000',
+					],
+					[
+						'title' => '3 nights in a beautiful homestay with local people house',
+						'price' => '5.232.000',
+					],
+					[
+						'title' => 'Tickets for sightseeing, tickets for Nho Que riverboat',
+						'price' => '3.408.000',
+					],
+					[
+						'title' => 'Gasoline cars',
+						'price' => '4.680.000',
+					],
+					[
+						'title' => 'Motorcycle damage insurance',
+						'price' => '3.960.000',
+					],
+					[
+						'title' => 'Ha Giang Immigration Permit 10$ for foreigners',
+						'price' => '5.232.000',
+					],
+					[
+						'title' => '*When you book the tour package will get a free bed before 1 night the tour start.',
+						'price' => '4.680.000',
+					],
+					[
+						'title' => '** If you want a Private room, The price is 400.000vnd/2 people/night',
+						'price' => '3.960.000',
+					],
+					[
+						'title' => '*** If you want to ride the bike by yourself, Please bring the International Motorbike License with you',
+						'price' => '5.232.000',
+					]
+				]
 			],
-			[
-				'title' => 'COMBO WITH BUS TICKETS 2 WAYS SELF-RIDING ( CLICK FOR MORE OPTIONS)',
-				'price' => '3.960.000',
-				'value' => 3960000
-			],
-			[
-				'title' => 'COMBO WITH BUS TICKETS 2 WAYS EASY-RIDER ( CLICK FOR MORE OPTIONS)',
-				'price' => '5.232.000',
-				'value' => 5232000
-			]
-        ],
-        'des' => [
-            [
-				'title' => 'Follow the group with the local guide',
-				'price' => '3.408.000',
-			],
-			[
-				'title' => 'New generation semi-automatic motor-bike* (can be upgraded with a small fee)',
-				'price' => '4.680.000',
-			],
-			[
-				'title' => '2 breakfasts, 3 lunches, and 2 dinners',
-				'price' => '3.960.000',
-			],
-			[
-				'title' => '2 nights in a beautiful homestay with local people house',
-				'price' => '5.232.000',
-			],
-			[
-				'title' => 'Tickets for sightseeing, tickets for Nho Que riverboat',
-				'price' => '3.408.000',
-			],
-			[
-				'title' => 'Gasoline cars',
-				'price' => '4.680.000',
-			],
-			[
-				'title' => 'Motorcycle damage insurance',
-				'price' => '3.960.000',
-			],
-			[
-				'title' => 'Ha Giang Immigration Permit 10$ for foreigners',
-				'price' => '5.232.000',
-			],
-			[
-				'title' => '*When you book the tour package will get a free bed before 1 night the tour start.',
-				'price' => '4.680.000',
-			],
-			[
-				'title' => '** If you want a Private room, The price is 400.000vnd/2 people/night',
-				'price' => '3.960.000',
-			],
-			[
-				'title' => '*** If you want to ride the bike by yourself, Please bring the International Motorbike License with you',
-				'price' => '5.232.000',
-			]
-        ]
-    ],
-    [
-        'title' => '4 DAYS 3 NIGHT',
-        'compos' => [
-            [
-				'title' => 'SELF-RIDING ( WITHOUT BUS TICKET )',
-				'price' => '3.408.000',
-				'value' => 4248000
-			],
-			[
-				'title' => 'EASY RIDER ( WITHOUT BUS TICKET )',
-				'price' => '4.680.000',
-				'value' => 6048000
-			],
-			[
-				'title' => 'COMBO WITH BUS TICKETS 2 WAYS SELF-RIDING ( CLICK FOR MORE OPTIONS)',
-				'price' => '3.960.000',
-				'value' => 4800000
-			],
-			[
-				'title' => 'COMBO WITH BUS TICKETS 2 WAYS EASY-RIDER ( CLICK FOR MORE OPTIONS)',
-				'price' => '5.232.000',
-				'value' => 6600000
-			]
-        ],
-        'des' => [
-            [
-				'title' => 'Follow the group with the local guide',
-				'price' => '3.408.000',
-			],
-			[
-				'title' => 'New generation semi-automatic motor-bike* (can be upgraded with a small fee)',
-				'price' => '4.680.000',
-			],
-			[
-				'title' => '3 breakfasts, 4 lunches, and 3 dinners',
-				'price' => '3.960.000',
-			],
-			[
-				'title' => '3 nights in a beautiful homestay with local people house',
-				'price' => '5.232.000',
-			],
-			[
-				'title' => 'Tickets for sightseeing, tickets for Nho Que riverboat',
-				'price' => '3.408.000',
-			],
-			[
-				'title' => 'Gasoline cars',
-				'price' => '4.680.000',
-			],
-			[
-				'title' => 'Motorcycle damage insurance',
-				'price' => '3.960.000',
-			],
-			[
-				'title' => 'Ha Giang Immigration Permit 10$ for foreigners',
-				'price' => '5.232.000',
-			],
-			[
-				'title' => '*When you book the tour package will get a free bed before 1 night the tour start.',
-				'price' => '4.680.000',
-			],
-			[
-				'title' => '** If you want a Private room, The price is 400.000vnd/2 people/night',
-				'price' => '3.960.000',
-			],
-			[
-				'title' => '*** If you want to ride the bike by yourself, Please bring the International Motorbike License with you',
-				'price' => '5.232.000',
-			]
-        ]
-    ],
-];
+		];
 
-foreach ($tours as $tour) {
-    // echo '<div class="wrap-type-tour">';
-    echo '<div class="type-tour">';
-    echo '<div class="prie_item_title">';
-    echo '<h4>' . $tour['title'] . '</h4>';
-    echo '</div>';
-    echo '<div class="radio-des">';
+		foreach ($tours as $tour) {
+			// echo '<div class="wrap-type-tour">';
+			echo '<div class="type-tour">';
+			echo '<div class="prie_item_title">';
+			echo '<h4>' . $tour['title'] . '</h4>';
+			echo '</div>';
+			echo '<div class="radio-des">';
 
-    // Duyệt và render mảng compos
-    foreach ($tour['compos'] as $compo) {
-        renderRadio($compo);
-    }
+			// Duyệt và render mảng compos
+			foreach ($tour['compos'] as $compo) {
+				renderRadio($compo);
+			}
 
-    // Duyệt và render mảng des
-    foreach ($tour['des'] as $des) {
-        renderDes($des);
-    }
+			// Duyệt và render mảng des
+			foreach ($tour['des'] as $des) {
+				renderDes($des);
+			}
 
-    echo '</div>';
-    echo '<div class="wrap-book-now">';
-    echo '<button class="book-now hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full uppercase">';
-    echo 'Book now';
-    echo '</button>';
-    echo '</div>';
-    echo '</div>';
-    // echo '</div>';
-}
+			echo '</div>';
+			echo '<div class="wrap-book-now">';
+			echo '<button class="book-now hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full uppercase">';
+			echo 'Book now';
+			echo '</button>';
+			echo '</div>';
+			echo '</div>';
+			// echo '</div>';
+		}
 
-function renderRadio($n) {
-    echo '<div class="wrap-radio-item">';
-    echo '<div class="flex items-center radio-item">';
-    echo '<div class="flex items-center input-label">';
-    echo '<input id="default-radio-1" type="radio" value=' . $n['value'] . ' name="default-radio" class="w-4 h-4 mr-2">';
-    echo '<label for="default-radio-1" class="title mr-auto">' . $n['title'] . '</label>';
-    echo '</div>';
-    echo '<label for="default-radio-1" class="value ml-auto">' . number_format($n['value']) . '</label>';
-    echo '</div>';
-    echo '<div class="crossbar"></div>';
-    echo '</div>';
-}
+		function renderRadio($n) {
+			echo '<div class="wrap-radio-item">';
+			echo '<div class="flex items-center radio-item">';
+			echo '<div class="flex items-center input-label">';
+			echo '<input id="default-radio-1" type="radio" value=' . $n['value'] . ' name="default-radio" class="w-4 h-4 mr-2">';
+			echo '<label for="default-radio-1" class="title mr-auto">' . $n['title'] . '</label>';
+			echo '</div>';
+			echo '<label for="default-radio-1" class="value ml-auto">' . number_format($n['value']) . '</label>';
+			echo '</div>';
+			echo '<div class="crossbar"></div>';
+			echo '</div>';
+		}
 
-function renderDes($n) {
-    echo '<div class="wrap-des">';
-    echo '<label for="default-radio-1" class="title mr-auto">' . $n['title'] . '</label>';
-    echo '</div>';
-}
-?>
-</div>
-</div>
+		function renderDes($n) {
+			echo '<div class="wrap-des">';
+			echo '<label for="default-radio-1" class="title mr-auto">' . $n['title'] . '</label>';
+			echo '</div>';
+		}
+		?>
+		</div>
+    </div>
+</section>
+
+
+<section class="wrap-pay py-[50px] bg-white pb-[35px] bg-no-repeat">
+	<div class="container">
+		<div class="title mb-[37px] text-center">
+			<p class="uppercase text-[40px] capitalize font-Viaoda">To confirm your registration, please provide the following information</p>
+		</div>
+		<div class="des mb-[37px] text-center">
+			<p class="uppercase text-[20px] capitalize font-Viaoda">The consultant will send a confirmation of your booking details via this method</p>
+		</div>
+		<div class="row -mx-[12px] mt-[20px]">
+			<div class="col-12 col-lg-6">
+				<div class="input-item">
+					<label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Write your friends name if booking together</label>
+					<input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Full name *" required>
+				</div>
+				<div class="input-item">
+					<label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Please provide full international format</label>
+					<input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Whatsapp Number *" required>
+				</div>
+				<div class="input-item">
+					<input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Email *" required>
+				</div>
+				<div class="input-item">
+					<label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">This is the day you will start the motorbike loop. The bus to Ha Giang will pick you up a day before this date.</label>
+					<!-- <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="John" required> -->
+				    <input datepicker type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Select date">
+				</div>
+				<div class="input-item">
+					<label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Pick up point - This is where we will pick you up to bring you to Ha Giang. If you are organising your own transportation to Ha Giang, choose Jasmine Hostel as your starting point</label>
+					<div class="row -mx-[12px] gap-[20px] mt-[20px]">
+						<div class="col-12 col-lg-6">
+							<select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+								<option selected>( Bai Chay Bus station ) Ha Long Bay</option>
+								<option value="US">Cat Ba</option>
+								<option value="CA">Jasmine Hostel Hà Giang</option>
+								<option value="FR">Jasmine Tour Office Hà Nội</option>
+								<option value="DE">Vietcombank Ninh Bình</option>
+							</select>
+	                    </div>
+						<div class="col-12 col-lg-6">
+							<select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+								<option selected>Choose a hotel</option>
+								<option value="US">United States</option>
+								<option value="CA">Canada</option>
+								<option value="FR">France</option>
+								<option value="DE">Germany</option>
+							</select>
+	                    </div>
+					</div>	
+				</div>
+				<div class="input-item">
+					<input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Agent code" required>
+				</div>
+				<div class="input-item">
+					<label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">This is the day you will start the motorbike loop. The bus to Ha Giang will pick you up a day before this date.</label>
+					<textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Message"></textarea>
+				</div>
+			</div>
+			<div class="col-12 col-lg-6 registration-list">
+				<div class="title">Registration list</div>
+				<div class="table">
+					<div class="row -mx-[12px] mt-[20px] header">
+			            <div class="col-12 col-lg-6">
+							Registrant Name
+						</div>
+						<div class="col-12 col-lg-4">
+							Price
+						</div>
+						<div class="col-12 col-lg-2">
+							Delete
+						</div>
+					</div>	
+				</div>
+				<div class="row -mx-[12px] mt-[20px] justify-end provisional">
+					<div>
+						Provisional:
+					</div>
+					<div>
+						0 đ
+					</div>
+				</div>
+				<div class="row -mx-[12px] mt-[20px] justify-end service-charge">
+					<div>
+						Service charge 2.5%:
+					</div>
+					<div>
+						0 đ
+					</div>
+				</div>
+				<div class="row -mx-[12px] mt-[20px] justify-end total">
+					<div>
+						Total:
+					</div>
+					<div>
+						0 đ
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
 </section>
 
 <section class="wrap-taisao py-[50px] bg-white pb-[35px] bg-no-repeat">
@@ -621,6 +724,7 @@ function renderDes($n) {
 
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/datepicker.min.js"></script>
 <script>
 	$(document).ready(function(){
 		$('.slider').slick({
