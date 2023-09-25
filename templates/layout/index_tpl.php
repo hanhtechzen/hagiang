@@ -281,6 +281,22 @@
 	</div>
 </section>
 
+
+<section class="bg-interesting-experiment bg-cover bg-no-repeat bg-center py-[60px]">
+    <div class="container">
+        <div>
+            <p class="title uppercase text-[40px]">INTERESTING EXPERIMENT</p>
+        </div>
+		<div class="des">
+            <div>Discover the stunning beauty of Ha Giang province on a thrilling motorbike adventure with us. Ha Giang is located in the far north of Vietnam, near the border with China, and is home to some of the most breathtaking scenery in the country.</div>
+            <div>Our tour will take you through winding roads that snake their way through dramatic limestone mountains, past cascading waterfalls and through charming hill tribe villages. You'll experience the thrill of crossing rickety suspension bridges and traversing steep mountain passes, all while taking in the stunning views of the surrounding landscape.</div>
+            <div>Along the way, you'll have the chance to meet and interact with the local ethnic communities, learn about their unique cultures and traditions, and sample delicious local cuisine.</div>
+            <div>Our experienced guides will ensure your safety and comfort throughout the trip, allowing you to relax and enjoy the incredible sights and sounds of this magical corner of Vietnam.</div>
+		    <div>So why wait? Book your Ha Giang motorbike tour today and experience the adventure of a lifetime!</div>
+		</div>
+    </div>
+</section>
+
 <section class="wrap-taisao py-[50px] bg-white pb-[35px] bg-no-repeat">
 	<div class="container">
 		<div class="title-chill-tour mb-[37px] text-center">
@@ -303,50 +319,33 @@
 	</div>
 </section>
 
-<section class="wrap-taisao py-[50px] pb-[35px] bg-no-repeat">
-	<div class="container">
-		<div class="title-chill-tour mb-[37px] text-center">
-			<p class="uppercase text-[40px] capitalize font-Viaoda">Frequently asked questions</p>
+<section class="bg-history bg-cover bg-no-repeat bg-center py-[60px]">
+    <div class="container">
+		<div class="history-item row -mx-[12px] mt-[20px]">
+			<div class="des">
+				<div class="list-des">
+					<div>Starting my business in 2017 with the base of Jasmine Hostel, I have had the opportunity to serve more than 30,000 domestic and foreign tourists with the following services:</div>
+					<div>- Motorbike rental, with 200 new, high-quality cars.</div>
+					<div>- Planned activities to experience Dong Van - Ha Giang Stone</div>
+					<div>Plateau 2 days to 5 days with a daily departure tour.</div>
+					<div>- Regularly organized special experience programs such as motorbike tours, caravan self-driving car tours, charity tours, etc.</div>
+					<div>I am experienced in providing exciting and memorable tours that are once-in-a-lifetime opportunities.</div>
+				</div>
+			</div>
+			<div class="experience">
+				<h3>6</h3>
+				<h4>Years of Experience</h4>
+			</div>
+			<div class="count-tour">
+				<h3>#1</h3>
+				<h4>Tour in Ha Giang</h4>
+			</div>
+			<div class="trusted-customers">
+				<h3>300,000</h3>
+				<h4>Trusted Customers</h4>
+			</div>
 		</div>
-		<?php
-		    $a = [
-				[
-					'title' => 'I am solo traveler, Can I join with the group?',
-					'des' => 'These are individual, couple, or group tours (based on your preference and needs). Even as a solo traveler, you’ll still receive the full tour experience.'
-				],
-				[
-					'title' => 'Can I bring my suitcase or big backpack?',
-					'des' => 'As we will be traveling on motorbikes, limited storage is available. Small Backpacks and easy-to-carry bags are recommended. Reconsider bringing large or difficult suitcases.'
-				],
-				[
-					'title' => 'Do you have scooter/automatic bike?',
-					'des' => 'The  Scooter or automatic bike is not suitable for mountain road with go up and down a lot of time.'
-				],
-				[
-					'title' => 'Can I make the payment by card?',
-					'des' => 'Yes, we accept payment by cash and card when you pay in our office or you can make the payment through website.'
-				]
-			];
-			array_map('cube', $a);
-			function cube($n)
-			{ ?>
-				<div class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-[20px] bg-accordion">
-					<div class="p-[5px]">
-						<details class="group">
-							<summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-								<p class="text-[20px] font-bold text-black"><?=$n['title']?></p>
-								<span class="transition group-open:rotate-180">
-									<svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
-								</span>
-							</summary>
-							<p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-								<?=$n['des']?>
-							</p>
-						</details>
-					</div>
-		        </div>
-		<?php } ?>
-	</div>
+    </div>
 </section>
 
 <section class="bg-compo-book bg-cover bg-no-repeat bg-center py-[60px]">
@@ -721,6 +720,53 @@
 		</div>
 	</div>
 </session>
+
+
+<section class="wrap-taisao py-[50px] pb-[35px] bg-no-repeat">
+	<div class="container">
+		<div class="title-chill-tour mb-[37px] text-center">
+			<p class="uppercase text-[40px] capitalize font-Viaoda">Frequently asked questions</p>
+		</div>
+		<?php
+		    $a = [
+				[
+					'title' => 'I am solo traveler, Can I join with the group?',
+					'des' => 'These are individual, couple, or group tours (based on your preference and needs). Even as a solo traveler, you’ll still receive the full tour experience.'
+				],
+				[
+					'title' => 'Can I bring my suitcase or big backpack?',
+					'des' => 'As we will be traveling on motorbikes, limited storage is available. Small Backpacks and easy-to-carry bags are recommended. Reconsider bringing large or difficult suitcases.'
+				],
+				[
+					'title' => 'Do you have scooter/automatic bike?',
+					'des' => 'The  Scooter or automatic bike is not suitable for mountain road with go up and down a lot of time.'
+				],
+				[
+					'title' => 'Can I make the payment by card?',
+					'des' => 'Yes, we accept payment by cash and card when you pay in our office or you can make the payment through website.'
+				]
+			];
+			array_map('cube', $a);
+			function cube($n)
+			{ ?>
+				<div class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-[20px] bg-accordion">
+					<div class="p-[5px]">
+						<details class="group">
+							<summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+								<p class="text-[20px] font-bold text-black"><?=$n['title']?></p>
+								<span class="transition group-open:rotate-180">
+									<svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+								</span>
+							</summary>
+							<p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+								<?=$n['des']?>
+							</p>
+						</details>
+					</div>
+		        </div>
+		<?php } ?>
+	</div>
+</section>
 
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

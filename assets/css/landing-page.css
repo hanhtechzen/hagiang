@@ -143,3 +143,108 @@ select {
     margin-top: 5px;
     color: #ec1d2f;
 }
+
+.bg-interesting-experiment {
+    background-image: url('https://jasminehagiang.com/images/introduce/compress/6_optimized_1680112805.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #000;
+    color: white;
+}
+
+.bg-interesting-experiment .des {
+    margin-top: 20px;
+    width: 70%;
+}
+
+.bg-interesting-experiment .des div {
+    margin-top: 15px;
+}
+
+.bg-history {
+    background-image: url('https://jasminehagiang.com/images/config/layer-62_1680344800.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #000;
+    color: white;
+    margin-top: 50px;
+}
+
+.bg-history h3 {
+    color: #ff4051;
+    margin-bottom: 10px;
+}
+
+.bg-history .history-item {
+    display: flex;
+    gap: 30px;
+}
+
+.our-tours .our-tour-item {
+    border-radius: 10px;
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.our-tours .four-day {
+    background-color: #ec1d2f;
+}
+
+.default_block .tab_block .location_block {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 23px 60px 23px;
+}
+
+.default_block .tab_block .location_block .tab_block_tour {
+    width: calc(100% / 4 - 60px);
+    position: relative;
+    margin: 0 30px;
+    flex: 1;
+}
+
+.default_block .tab_block .location_block .tab_block_tour:before {
+    content: '';
+    background-color: #bbb;
+    display: block;
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    left: 0;
+    right: -32px;
+    height: 1px;
+    opacity: 0.4;
+}
+
+.default_block .tab_block .location_block .tab_block_tour .location_name {
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    line-height: 1.486;
+    padding-left: 10px;
+    position: relative;
+    z-index: 3;
+    background-color: #fff;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.default_block .tab_block .location_block .tab_block_tour .location_name:before {
+    content: '';
+    background-image: url(https://jasminehagiang.com/modules/home/assets/images/icon.png);
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -4px;
+    left: -28px;
+    z-index: 1;
+}
